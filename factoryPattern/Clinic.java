@@ -27,6 +27,14 @@ public class Clinic {
                 petFile.setPetName("Muning");
                 petFile.setPet(pet);
                 ((Cat) pet).setNoOfLives(9);
+            case 3:
+                System.out.println("Exiting the program.");
+                System.exit(0);
+                break;
+            default:
+                System.out.println("Invalid Choice, please try again.");
+
+
         }
 
         System.out.println("Pet id is " + petFile.getPetId());
