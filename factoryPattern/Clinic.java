@@ -39,6 +39,7 @@ public class Clinic {
                     ((Cat) pet).setNoOfLives(9);
                     //(2) System output cat's lives is displayed
                     System.out.println("Number of lives is: " + ((Cat) pet).getNoOfLives());
+                    break;
                 case 3:
                     // (3) terminating option
                     System.out.println("Exiting the program.");
